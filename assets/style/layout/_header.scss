@@ -9,6 +9,10 @@ header {
     align-items: center;
     background: white;
     padding: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
 
     h2 {
       color: $color1;
