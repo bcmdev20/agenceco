@@ -1,15 +1,15 @@
 header {
-  background: url(../../../assets/img/plantes.jpg) center/cover;
+  background: url(assets/img/plantes.jpg) center/cover;
   height: 100vh;
   position: relative;
-  
+
   nav {
     display: grid;
     grid-template-columns: 15% 85%;
     align-items: center;
     background: white;
     padding: 12px;
-    
+
     h2 {
       color: $color1;
       font-size: 2rem;
@@ -21,25 +21,24 @@ header {
       color: $color4;
       font-size: 1.1rem;
       font-weight: 500;
-      li{
+      li {
         cursor: pointer;
       }
     }
   }
-  .titre-container{
+  .titre-container {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateY(50%);
-    h2{
-        color: rgb(206, 206, 206);
-        margin-bottom: -10px;
-        font-size: 2.5rem;
+    h2 {
+      color: rgb(206, 206, 206);
+      margin-bottom: -10px;
+      font-size: 2.5rem;
     }
-    h1{
-        color: $color5;
-        font-size: 3rem;
+    h1 {
+      color: $color5;
+      font-size: 3rem;
     }
-
   }
 }
