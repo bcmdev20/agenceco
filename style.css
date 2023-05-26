@@ -102,7 +102,7 @@ header .titre-container h1 {
   position: relative;
 }
 .section1 .card-container .card1 .img-card1 {
-  background: url(../../../assets/img/image1.jpg) center/cover;
+  background: url(assets/img/image1.jpg) center/cover;
   height: 100px;
   width: 100px;
   margin: 0 auto;
@@ -114,7 +114,7 @@ header .titre-container h1 {
   position: relative;
 }
 .section1 .card-container .card2 .img-card2 {
-  background: url(../../../assets/img/image2.jpg) center/cover;
+  background: url(assets/img/image2.jpg) center/cover;
   height: 100px;
   width: 100px;
   margin: 0 auto;
@@ -125,7 +125,7 @@ header .titre-container h1 {
   position: relative;
 }
 .section1 .card-container .card3 .img-card3 {
-  background: url(../../../assets/img/image3.jpg) center/cover;
+  background: url(assets/img/image3.jpg) center/cover;
   height: 100px;
   width: 100px;
   margin: 0 auto;
@@ -178,7 +178,7 @@ header .titre-container h1 {
   color: whitesmoke;
 }
 .section3 .service-container .service1 .service-img1 {
-  background: url(../../../assets/img/Vector.jpg) center/cover;
+  background: url(assets/img/Vector.jpg) center/cover;
   width: 100px;
   height: 100px;
   margin: 20px auto;
@@ -198,7 +198,7 @@ header .titre-container h1 {
   color: whitesmoke;
 }
 .section3 .service-container .service2 .service-img2 {
-  background: url(../../../assets/img/Vector-1.jpg) center/cover;
+  background: url(assets/img/Vector-1.jpg) center/cover;
   width: 100px;
   height: 100px;
   margin: 20px auto;
