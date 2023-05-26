@@ -1,0 +1,61 @@
+.section3 {
+  padding: 60px 20px 40px;
+  h2 {
+    color: $color3;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  .service-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 40px;
+    h3{
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        color: $color4;
+      }
+    .service1 {
+      padding: 15px;
+      width: 50%;
+      margin: 0 auto;
+      &:hover {
+        background: rgb(0, 0, 88);
+        cursor: pointer;
+        transition: 1s ease-out;
+        h3 {
+          color: whitesmoke;
+        }
+      }
+      .service-img1 {
+        background: url(../../../assets/img/Vector.jpg) center/cover;
+        width: 100px;
+        height: 100px;
+        margin: 20px auto;
+        margin-bottom: 20px;
+      }
+      
+    }
+    
+
+    .service2 {
+      padding: 15px;
+      width: 50%;
+      margin: 0 auto;
+      &:hover {
+        background: rgb(87, 88, 0);
+        cursor: pointer;
+        transition: 1s ease-out;
+        h3 {
+          color: whitesmoke;
+        }
+      }
+      .service-img2 {
+        background: url(../../../assets/img/Vector-1.jpg) center/cover;
+        width: 100px;
+        height: 100px;
+        margin: 20px auto;
+      }
+      
+    }
+  }
+}

@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-align: center;
+}
+
+input[type=text] {
+  border: none;
+  background: none;
+  outline: none;
+  border-bottom: 1px solid rgb(240, 240, 240);
+  padding: 8px 0;
+  color: white;
+  text-align: left;
+  margin-bottom: 20px;
+}
+input[type=text]::-moz-placeholder {
+  color: rgb(240, 240, 240);
+}
+input[type=text]::placeholder {
+  color: rgb(240, 240, 240);
+}
+
+header {
+  background: url(../../../assets/img/plantes.jpg) center/cover;
+  height: 100vh;
+  position: relative;
+}
+header nav {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  align-items: center;
+  background: white;
+  padding: 12px;
+}
+header nav h2 {
+  color: rgb(5, 59, 68);
+  font-size: 2rem;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: rgb(28, 33, 38);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+header nav ul li {
+  cursor: pointer;
+}
+header .titre-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(50%);
+}
+header .titre-container h2 {
+  color: rgb(206, 206, 206);
+  margin-bottom: -10px;
+  font-size: 2.5rem;
+}
+header .titre-container h1 {
+  color: rgb(213, 243, 31);
+  font-size: 3rem;
+}
+
+.section1 {
+  padding: 60px 20px 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.section1 h2 {
+  font-size: 2.5rem;
+  color: rgb(2, 157, 91);
+  margin-bottom: 30px;
+}
+.section1 > p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.section1 .card-container {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  padding: 60px 20px;
+}
+.section1 .card-container h3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.section1 .card-container p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  color: rgb(86, 94, 101);
+}
+.section1 .card-container .card1 {
+  margin-right: 10px;
+  padding: 10px 5px;
+  position: relative;
+}
+.section1 .card-container .card1 .img-card1 {
+  background: url(../../../assets/img/image1.jpg) center/cover;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.section1 .card-container .card2 {
+  margin-right: 10px;
+  padding: 10px 5px;
+  position: relative;
+}
+.section1 .card-container .card2 .img-card2 {
+  background: url(../../../assets/img/image2.jpg) center/cover;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.section1 .card-container .card3 {
+  padding: 10px 5px;
+  position: relative;
+}
+.section1 .card-container .card3 .img-card3 {
+  background: url(../../../assets/img/image3.jpg) center/cover;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+.section2 {
+  background: rgb(5, 59, 68);
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 20px;
+}
+.section2 h3 {
+  color: rgb(213, 243, 31);
+  font-size: 1.5rem;
+}
+.section2 h4 {
+  color: whitesmoke;
+}
+
+.section3 {
+  padding: 60px 20px 40px;
+}
+.section3 h2 {
+  color: rgb(2, 157, 91);
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+.section3 .service-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 40px;
+}
+.section3 .service-container h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: rgb(28, 33, 38);
+}
+.section3 .service-container .service1 {
+  padding: 15px;
+  width: 50%;
+  margin: 0 auto;
+}
+.section3 .service-container .service1:hover {
+  background: rgb(0, 0, 88);
+  cursor: pointer;
+  transition: 1s ease-out;
+}
+.section3 .service-container .service1:hover h3 {
+  color: whitesmoke;
+}
+.section3 .service-container .service1 .service-img1 {
+  background: url(../../../assets/img/Vector.jpg) center/cover;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  margin-bottom: 20px;
+}
+.section3 .service-container .service2 {
+  padding: 15px;
+  width: 50%;
+  margin: 0 auto;
+}
+.section3 .service-container .service2:hover {
+  background: rgb(87, 88, 0);
+  cursor: pointer;
+  transition: 1s ease-out;
+}
+.section3 .service-container .service2:hover h3 {
+  color: whitesmoke;
+}
+.section3 .service-container .service2 .service-img2 {
+  background: url(../../../assets/img/Vector-1.jpg) center/cover;
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+.section4 {
+  background: rgb(5, 59, 68);
+  padding: 20px;
+}
+.section4 h2 {
+  color: rgb(213, 243, 31);
+  font-size: 2.5rem;
+}
+.section4 p {
+  font-size: 1.1rem;
+  color: whitesmoke;
+  margin-top: 20px;
+}
+.section4 form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, auto) 1fr;
+  grid-template-areas: "nom categorie" "tel ville" "mail mail" "message message" "vide submit";
+  padding: 30px;
+  gap: 20px;
+  position: relative;
+}
+.section4 form #mail {
+  grid-area: mail;
+  width: 100%;
+}
+.section4 form textarea {
+  grid-area: message;
+  background: none;
+  height: 150px;
+  border: none;
+  text-align: left;
+  outline: none;
+  color: whitesmoke;
+  resize: none;
+}
+.section4 form textarea::-moz-placeholder {
+  color: whitesmoke;
+}
+.section4 form textarea::placeholder {
+  color: whitesmoke;
+}
+.section4 form input[type=submit] {
+  grid-area: submit;
+  width: 20%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  background: rgb(213, 243, 31);
+  color: rgb(5, 59, 68);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.section5 {
+  padding: 60px 20px 40px;
+}
+.section5 .about-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.section5 .about-container p {
+  color: rgb(86, 94, 101);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.section5 .about-container .about-left {
+  background: url(../../../assets/img/bureau-collegues.jpg) center/cover;
+  width: 100%;
+  height: 275px;
+  border-radius: 20px;
+}
+.section5 .about-container .about-right {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid rgb(5, 59, 68);
+  border-radius: 20px;
+  margin-left: 8px;
+  padding: 20px;
+}
+.section5 .about-container .about-right .about-info {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  align-items: center;
+  width: 100%;
+}
+.section5 .about-container .about-right .about-info img {
+  border: 3px solid rgb(5, 59, 68);
+  border-radius: 50%;
+  padding: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 70px;
+  height: 64px;
+}
+.section5 .about-container .about-right .about-info h3 {
+  font-size: 1rem;
+  margin-top: 20px;
+  color: rgb(5, 59, 68);
+}/*# sourceMappingURL=style.css.map */
